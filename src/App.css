@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+hr {
+  color: hsl(240, 100%, 5%);
+}
+
+.main-img {
+  content: url(../assets/images/image-web-3-mobile.jpg);
+}
+@media screen and (min-width: 768px) {
+  .main-img {
+    content: url(../assets/images/image-web-3-desktop.jpg);
+  }
+}
